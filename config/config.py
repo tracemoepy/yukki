@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ilhamsrc/yukki")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/tracemoepy/yukki")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
